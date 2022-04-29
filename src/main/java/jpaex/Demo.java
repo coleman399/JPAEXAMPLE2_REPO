@@ -105,13 +105,13 @@ public class Demo {
 		thing2.setUser(user1);
 
 		// Order of operations Without Cascading:
-//		thing1 = em.merge(thing1);
-//		thing2 = em.merge(thing2);
-//		user1.addThing(thing1);
-//		user1.addThing(thing2);
-//		user1 = em.merge(user1);
-//		thing1.setUser(user1);
-//		thing2.setUser(user1);
+		// thing1 = em.merge(thing1);
+		// thing2 = em.merge(thing2);
+		// user1.addThing(thing1);
+		// user1.addThing(thing2);
+		// user1 = em.merge(user1);
+		// thing1.setUser(user1);
+		// thing2.setUser(user1);
 
 		em.getTransaction().commit();
 
